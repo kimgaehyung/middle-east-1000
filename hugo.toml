@@ -1,0 +1,66 @@
+baseURL = "https://kimgaehyung.com/"
+locale = "ko-KR"
+title = "김개형의 중동 1000일"
+theme = "PaperMod"
+
+[pagination]
+pagerSize = 10
+
+[params]
+description = "KBS 두바이 특파원이 현장에서 기록하는 중동 리포트"
+author = "김개형"
+
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+
+[menu]
+
+[[menu.main]]
+name = "이란"
+url = "/tags/iran/"
+weight = 1
+
+[[menu.main]]
+name = "이스라엘"
+url = "/tags/israel/"
+weight = 2
+
+[[menu.main]]
+name = "레바논"
+url = "/tags/lebanon/"
+weight = 3
+
+[[menu.main]]
+name = "UAE"
+url = "/tags/uae/"
+weight = 4
+
+[[menu.main]]
+name = "사우디"
+url = "/tags/saudi/"
+weight = 5
+
+[[menu.main]]
+name = "심층분석"
+url = "/analysis/"
+weight = 6
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 7
+
+[params.profileMode]
+enabled = true
+title = "김개형의 중동 1000일"
+subtitle = "KBS 두바이 특파원이 현장에서 기록하는 중동 리포트. 이란, 이스라엘, 레바논, 걸프, 에너지와 안보를 정치·경제·외교의 맥락에서 읽습니다."
+
+[[params.profileMode.buttons]]
+name = "About"
+url = "/about/"
+
+[[params.profileMode.buttons]]
+name = "Articles"
+url = "/posts/"
